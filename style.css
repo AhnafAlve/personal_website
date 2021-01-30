@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+section{
+    height: 500px;
+    padding-bottom:200px;
+}
+section img{
+    padding-top: 140px;
+}
+h1{
+    font-size: 50px;
+    color: #404147;
+}
+h1 span{
+    color: tomato;
+}
+/* Header Section css */
+
+header{
+ text-align: right; 
+ padding: 15px;    
+}
+header ul li{
+    display:inline-block;
+    margin: 20px;
+}
+
+/* Body section css */
+
+button{
+    text-decoration: none;
+    font-weight: 700;
+    color:white;
+    background-color: #FF8063;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color:tomato;
+    border: 1px solid tomato;
+}
+
+#banner_txt{
+    padding: 20% 0; 
+    margin-right: 10%;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+
+.half-width img{
+    width: 100%;
+    float: left;   
+}
+
+#about_txt{
+    padding: 20% 0% 10% 20%;
+}
+.projects{
+    background-color: #E5E5E5;
+}
+.projects h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.work img{
+   height: 300px;
+   width: 30%;
+   padding: 10% 0;
+   margin: 10px;
+   float: left;
+}
+
+.contact img{
+    width: 906px;
+    height: 225px;
+    padding: 20% 0;
+    margin-left: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_img{
+ position: relative;
+ text-align: center;
+ 
+}
+
+.footer_txt{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(17%, -132%);
+}
+.footer_btn{
+    position: absolute;
+    top: 50%;
+    transform: translate(454%, -45%);
+}
+footer{
+    text-align: center;
+}
+footer img{
+    width: 40px;
+    margin: 10px;
+}
+
+/* extra section */
+#content img {
+    width: 15%;
+    margin-left: 10%;
+    float: left;
+    padding: 20px;
+}
+#client-txt{
+    text-align: center;
+    margin: 50px 0px;
+}
